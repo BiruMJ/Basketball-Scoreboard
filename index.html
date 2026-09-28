@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+
+    <!-- Tecture Font (Google Font) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="score-info">
+            <div>
+                <h3 class="board-title">HOME</h3>
+                <div class="score-bg">
+                    <span id="home-points" class="board-points"></span>
+                </div>
+                <div class="add-points" id="home-add-points">
+                    <button id="home-point1" onclick="homeIncrementBy1()">+1</button>
+                    <button id="home-point2" onclick="homeIncrementBy2()">+2</button>
+                    <button id="home-point3" onclick="homeIncrementBy3()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3 class="board-title">GUEST</h3>
+                <div class="score-bg">
+                    <span id="guest-points" class="board-points"></span>
+                </div>
+                <div class="add-points" id="guest-add-points">
+                    <button id="guest-point1" onclick="guestIncrementBy1()">+1</button>
+                    <button id="guest-point2" onclick="guestIncrementBy2()">+2</button>
+                    <button id="guest-point3" onclick="guestIncrementBy3()">+3</button>
+                </div>
+            </div>
+        </div>
+
+        <button type="button" class="newgame-btn">New Game</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

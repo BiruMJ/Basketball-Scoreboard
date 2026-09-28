@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.container {
+    font-family: "Tektur", sans-serif;
+    font-style: normal;
+    margin: 100px auto;
+    padding: 68px;
+    max-width: 575px;
+    background-color: #1B244A;
+    color: #EEE;
+    border-radius: 5px;
+}
+
+.score-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container h3 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 35.89px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.score-bg {
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    background-color: #080001;
+}
+
+.board-points {
+    display: block;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 90px;
+    line-height: 126.67px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+.add-points {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.add-points button {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 27.81px;
+    letter-spacing: 0%;
+    text-align: center;
+    background: transparent;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    font-family: "Tektur", sans-serif;
+    font-style: normal;
+}
+
+.add-points button:hover {
+    background-color: #34D399;
+    color: #111827;
+    cursor: pointer;
+}
+
+.add-points button:active {
+    background-color: #00905b;
+}
+
+.newgame-btn {
+    font-family: "Tektur", sans-serif;
+    font-style: normal;
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 2rem;
+    background-color: #F9FAFB;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+
+.newgame-btn:hover {
+    background-color: #34D399;
+}
+
+.newgame-btn:active {
+    background-color: #259e72;
+}
